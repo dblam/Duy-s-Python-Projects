@@ -1,0 +1,11 @@
+^(
+([0-9]|(1[0-2]))
+((:[0-5][0-9]){1,2})? 
+(am|pm))$
+
+# ()? denotes it is optional, 
+# ^...$ denotes start and end of regular expression
+# [x-y] denotes a range of possible outcome
+# char by it self must be of correct/exact match to be True
+# (x){1,2} denotes the possible occurrences of x
+# {x|y} denotes x or y; or => '|' char
